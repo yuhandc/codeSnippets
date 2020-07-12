@@ -1,0 +1,7 @@
+ int getDaysInBetween(String firstDate, String secondDate, String dateFormat = "dd/MM/yyyy"  ){
+        SimpleDateFormat sdf = new SimpleDateFormat(dateFormat)
+        Date fromSetDate = sdf.parse(firstDate)
+        Date toSetDate2 = sdf.parse(secondDate)
+        long days = (long) (fromSetDate.getTime() - toSetDate2.getTime()) /(1000*60*60*24)
+        return days
+    }

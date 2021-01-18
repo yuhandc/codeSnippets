@@ -1,0 +1,2 @@
+/*Reggex pattern to extract java stack trace */
+/(((java(.*?)?:)).*?(?=(?<![\w\d])at(?![\w\d])))/

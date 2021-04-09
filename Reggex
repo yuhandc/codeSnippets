@@ -1,2 +1,9 @@
 /*Reggex pattern to extract java stack trace */
 /(((java(.*?)?:)).*?(?=(?<![\w\d])at(?![\w\d])))/
+
+
+/*Reggex patter to simply match a text in a row ingronring few values*/
+example text : 
+     C9999        9                      Simple Regex Test   C9999999C      CC99999 - C 
+Reggex : The below reggex will ignore specific values other than "Simple Regex Test" and the number of Alfa numeric values 
+C9999        9                      Simple Regex Test   C9999999C      CC99999 - C 

@@ -1,0 +1,5 @@
+## js function to validate utc date format
+
+function(uTCdate){
+    return /\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}/.test(uTCdate)
+   }
